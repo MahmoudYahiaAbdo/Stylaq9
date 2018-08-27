@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <group android:checkableBehavior="single" android:id="@+id/l">
+        <item
+            android:id="@+id/home"
+            android:title="Home" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/c">
+        <item
+            android:id="@+id/cat"
+            android:title="Categorise" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/m">
+        <item
+            android:id="@+id/my_fav"
+            android:title="My Favourites"
+            />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/n">
+        <item
+            android:id="@+id/noti"
+            android:title="Notifications" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/b">
+        <item
+            android:id="@+id/blog"
+            android:title="Blog" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/ca">
+        <item
+            android:id="@+id/cart"
+            android:title="Cart" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/s">
+        <item
+            android:id="@+id/search"
+            android:title="Search" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/e">
+        <item
+
+            android:id="@+id/edit"
+            android:title="Edit Profile" />
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/z">
+
+        <item
+            android:checkable="false"
+            android:enabled="false"
+            android:id="@+id/it"
+            android:title="" />
+    </group>
+
+
+</menu>
